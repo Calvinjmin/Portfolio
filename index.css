@@ -2,11 +2,17 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    padding-bottom: 0px;
+    margin: 1%;
+    color: #cccccc;
 }
 
 body {
-    background-color: white;
+    background-color:white;
+}
+
+p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #cccccc;
 }
 
 ul {
@@ -18,6 +24,14 @@ li {
     width: 10%;
     display: inline-block;
     vertical-align: top;
+}
+
+a.resume:link {
+    color: #323232;
+}
+
+a.resume:visited {
+    color: #cccccc;
 }
 
 .avatar {
