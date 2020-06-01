@@ -26,11 +26,11 @@ li {
     vertical-align: top;
 }
 
-a.resume:link {
+a.hyperlink:link {
     color: #323232;
 }
 
-a.resume:visited {
+a.hyperlink:visited {
     color: #cccccc;
 }
 
