@@ -1,0 +1,8 @@
+# Default ignored files
+/workspace.xml
+
+# .IDEA Extension
+.idea/
+
+# AWS Creds
+awscli-bundle
