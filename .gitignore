@@ -6,3 +6,6 @@
 
 # AWS Creds
 awscli-bundle
+
+# DS_STORE Files
+.DS_Store
