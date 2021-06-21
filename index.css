@@ -1,48 +1,56 @@
+/* Body CSS Config */
 body {
-    background-color:#778899;
+  background-color: #778899;
 }
 
+/* Basic P Config */
 p {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #cccccc;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2vw;
+  font-size: 16px;
+  color: #cccccc;
 }
 
-ul {
-    text-align: center;
-    padding: 0;
-}
-
-li {
-    width: 10%;
-    display: inline-block;
-    vertical-align: top;
-}
-
+/* A Hyperlink Config */
 a.hyperlink:link {
-    color: #323232;
+  color: #323232;
 }
 
 a.hyperlink:visited {
-    color: #cccccc;
+  color: #cccccc;
 }
 
-.avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 275px;
-    width: 265px;
-    border-radius: 50%;
-    padding-top: 0;
+/* CUSTOM CSS */
+#avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 275px;
+  width: 265px;
+  border-radius: 50%;
+  padding-top: 0;
+}
+
+.centerpage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
+
+.centerpage p {
+  text-align: center;
+  font-size: 4vw;
+  font-size: 16px;
+  margin: 5%;
 }
 
 .bottom {
-    position: absolute;
-    left: 40%;
-    bottom: 0;
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
 }
 
-/* Links inside the navbar */
+/* NAV BAR CSS */
 .navbar a {
   float: left;
   color: white;
@@ -66,22 +74,22 @@ a.hyperlink:visited {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #323232;
 }
 
-/* Dropdown content (hidden by default) */
-/*   background-color: #f9f9f9; */
+/* Dropdown content */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -95,12 +103,10 @@ a.hyperlink:visited {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -115,19 +121,20 @@ a.hyperlink:visited {
 
 .topnav-centered h1 {
   float: none;
-  position: absolute;  
+  position: absolute;
   color: #cccccc;
   top: 2.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 45px;
+  font-size: 4vw;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: #cccccc;
 }
 
-
 @media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
+  .topnav a,
+  .topnav-right {
     float: none;
     display: block;
   }
