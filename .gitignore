@@ -16,6 +16,3 @@ node_modules/
 # Package Files
 package.json
 package-lock.json
-
-# Profile Picture
-images/*

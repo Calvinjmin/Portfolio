@@ -37,7 +37,7 @@ a.hyperlink:visited {
   width: 25em;
 }
 
-.centerpage p {
+.centerPage p {
   text-align: center;
   font-size: 4vw;
   font-size: 16px;
@@ -51,7 +51,7 @@ a.hyperlink:visited {
 }
 
 /* NAV BAR CSS */
-.navbar a {
+.navigationBar a {
   float: left;
   color: white;
   text-align: center;
@@ -78,8 +78,8 @@ a.hyperlink:visited {
   margin: 0;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.navigationBar a:hover,
+.dropdown:hover .dropButton {
   background-color: #323232;
 }
 
@@ -133,13 +133,13 @@ a.hyperlink:visited {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a,
-  .topnav-right {
+  .topNav a,
+  .topNav-right {
     float: none;
     display: block;
   }
 
-  .topnav-centered a {
+  .topNav-centered a {
     position: relative;
     top: 0;
     left: 0;
