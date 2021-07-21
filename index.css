@@ -31,7 +31,7 @@ a.hyperlink:visited {
   padding-top: 0;
 }
 
-.centerpage {
+.centerPage {
   margin-left: auto;
   margin-right: auto;
   width: 25em;
@@ -67,7 +67,7 @@ a.hyperlink:visited {
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.dropdown .dropButton {
   font-size: 20px;
   border: none;
   outline: none;
@@ -111,7 +111,7 @@ a.hyperlink:visited {
   display: block;
 }
 
-.topnav {
+.navigationBar {
   background-color: #778899;
   overflow: hidden;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -119,7 +119,7 @@ a.hyperlink:visited {
   padding-top: 20px;
 }
 
-.topnav-centered h1 {
+.navigationBar-centered h1 {
   float: none;
   position: absolute;
   color: #cccccc;
